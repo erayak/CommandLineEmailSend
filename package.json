@@ -1,0 +1,19 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "command-line mail send",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "mailer": "./index.js"
+  },
+  "dependencies": {
+    "co-prompt": "^1.0.0",
+    "prompt": "^1.0.0",
+    "nodemailer": "^3.1.3"
+  }
+}
